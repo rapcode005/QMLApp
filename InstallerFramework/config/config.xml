@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <WizardStyle>Modern</WizardStyle>
+    <Name>NAVS Installer</Name>
+    <Version>1.0.15</Version>
+    <ProductUrl>https://coffieldweb.com</ProductUrl>
+    <Watermark>navs_bg.png</Watermark>
+    <Title>NAVS Desktop Software Installation</Title>
+    <Publisher>CU*Northwest</Publisher>
+    <InstallerApplicationIcon>NAVS_N</InstallerApplicationIcon>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>NAVS</StartMenuDir>
+    <TargetDir>C:/Program Files/CU Northwest/NAVS</TargetDir>
+    <RemoteRepositories>
+        <Repository>
+            <Url>http://app.navsnow.com/repository</Url>
+            <!-- <Url>http://localhost/repository</Url> -->
+        </Repository>
+    </RemoteRepositories>
+    <ControlScript>controller.qs</ControlScript>
+    <RunProgram>@TargetDir@/NAVS_DESKTOP/navs.exe</RunProgram>
+    <RunProgramDescription>Start NAVS after installation is complete?</RunProgramDescription>
+</Installer>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="FontAwesome/fontawesome-webfont.ttf">FontAwesome/fontawesome-webfont.ttf</file>
+        <file alias="FontAwesome/qmldir">FontAwesome/qmldir</file>
+    </qresource>
+</RCC>

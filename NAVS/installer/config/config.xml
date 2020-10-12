@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Installer>
+    <Name>NAVS</Name>
+    <Version>1.0.3</Version>
+    <Title>NAVS</Title>
+    <Publisher>Coffield Web</Publisher>
+    <StartMenuDir>CU-NorthWes/NAVS</StartMenuDir>
+	<ProductUrl>https://cunorthwest.com/</ProductUrl>
+	<InstallerApplicationIcon>NAVS_N</InstallerApplicationIcon>
+	<TargetDir>@ApplicationsDir@/CU-NorthWest/NAVS</TargetDir>
+	<MaintenanceToolName>uninstall</MaintenanceToolName>
+	<RemoveTargetDir>true</RemoveTargetDir>
+
+
+</Installer>

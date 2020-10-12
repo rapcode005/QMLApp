@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+	<DisplayName>NAVS</DisplayName>
+	<Description>Installer for alpha-1</Description>
+	<Version>1.0.3</Version>
+	<ReleaseDate>2020-02-25</ReleaseDate>
+	<Default>true</Default>
+	 <Licenses>
+        <License name="NAVS License Agreement" file="license.txt" />
+    </Licenses>
+	<Script>installscript.qs</Script>
+</Package>

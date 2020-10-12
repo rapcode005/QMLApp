@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/windows/MontreuxC-DmBd.otf</file>
+        <file>fonts/windows/MontreuxC-Rg.otf</file>
+        <file>images/glowdot3.png</file>
+        <file>images/NAVS_N.ico</file>
+        <file>js/webchannel.txt</file>
+        <file>js/NAVSAPI.txt</file>
+        <file>images/navsFullBG.png</file>
+        <file>images/logoRed.png</file>
+        <file>images/nRed.png</file>
+    </qresource>
+</RCC>

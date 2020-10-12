@@ -1,0 +1,5 @@
+Unzip this .7z to expose the folder openssl.
+
+Place this at the C Drive in a folder called openssl
+
+So you should have C:\openssl

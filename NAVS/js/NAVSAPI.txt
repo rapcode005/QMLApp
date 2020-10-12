@@ -1,0 +1,49 @@
+/*
+Here we register navs.api as the api for interacting
+with the browser
+*/
+new QWebChannel(qt.webChannelTransport,
+    function(channel){
+
+        window.navs = {
+            api : channel.objects.navsObj,
+
+            /*
+            This function allows you to register a callback that will be
+            called when the system has finished creating an MD5 Checksum
+            for any file chosen by a file picker dialog.
+            */
+            registerMD5FilePickerCallback : function(callbackFunction){
+                if(typeof(callbackFunction) == "function"){
+                    window.navs.api.md5Changed.connect(function(value) {
+                        callbackFunction(value);
+                    });
+                }
+            },
+
+            /*
+            This function allows you to register a callback that will be
+            called when the system has finished downloading a .iso file.
+            */
+            registerISODownloadedCallback : function(callbackFunction){
+                if(typeof(callbackFunction) == "function"){
+                    window.navs.api.isoStatusChanged.connect(function(value) {
+                        callbackFunction(value);
+                    });
+                }
+            },
+
+            /*
+            This function allows you to register a callback that will be
+            called as percentage of download for an ISO changes.
+            */
+            registerISODownloadedPercentageCallback : function(callbackFunction){
+                if(typeof(callbackFunction) == "function"){
+                    window.navs.api.isoStatusPercentageChanged.connect(function(value) {
+                        callbackFunction(value);
+                    });
+                }
+            },
+        }
+    }
+);

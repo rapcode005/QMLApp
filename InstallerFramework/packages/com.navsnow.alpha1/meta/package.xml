@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Navs Desktop</DisplayName>
+    <Description>NAVS Desktop Software</Description>
+    <Version>1.0.29</Version>
+    <ReleaseDate>2020-08-17</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.js</Script>
+    <Name>com.navsnow.alpha1</Name>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Licenses>
+        <License name="NAVS END USER LICENSE AGREEMENT" file="NAVS_license.txt"/>
+    </Licenses>
+</Package>

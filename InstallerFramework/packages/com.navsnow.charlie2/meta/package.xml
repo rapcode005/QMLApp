@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Navs Support Service</DisplayName>
+    <Description>NAVS Support Service</Description>
+    <Version>1.0.1</Version>
+    <ReleaseDate>2020-07-08</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+    <Name>com.navsnow.charlie2</Name>
+    <ForcedInstallation>true</ForcedInstallation>
+    <RequiresAdminRights>true</RequiresAdminRights>
+</Package>

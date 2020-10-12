@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Navs Communication Service</DisplayName>
+    <Description>NAVS Communication Service</Description>
+    <Version>1.0.1</Version>
+    <ReleaseDate>2020-07-08</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.js</Script>
+    <Name>com.navsnow.charlie1</Name>
+    <ForcedInstallation>true</ForcedInstallation>
+</Package>

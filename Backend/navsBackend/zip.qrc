@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>7-Zip/7z.exe</file>
+        <file>7-Zip/7z.dll</file>
+        <file>7-Zip/7z.sfx</file>
+        <file>7-Zip/7zCon.sfx</file>
+        <file>7-Zip/7zFM.exe</file>
+        <file>7-Zip/7zG.exe</file>
+        <file>7-Zip/7-zip.chm</file>
+        <file>7-Zip/7-zip.dll</file>
+        <file>7-Zip/descript.ion</file>
+        <file>7-Zip/History.txt</file>
+        <file>7-Zip/License.txt</file>
+        <file>7-Zip/readme.txt</file>
+        <file>7-Zip/Uninstall.exe</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,48 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.navsnow.alpha1</Name>
+  <DisplayName>Navs Desktop</DisplayName>
+  <Description>NAVS Desktop Software</Description>
+  <Version>1.0.29</Version>
+  <ReleaseDate>2020-08-17</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.js</Script>
+  <ForcedInstallation>true</ForcedInstallation>
+  <UpdateFile OS="Any" UncompressedSize="242793511" CompressedSize="77806813"/>
+  <DownloadableArchives>NAVS_DESKTOP.7z</DownloadableArchives>
+  <Licenses>
+   <License file="NAVS_license.txt" name="NAVS END USER LICENSE AGREEMENT"/>
+  </Licenses>
+  <SHA1>482cf559eb6b79ab27bafc1e44ebb81428e63b8b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.navsnow.charlie1</Name>
+  <DisplayName>Navs Communication Service</DisplayName>
+  <Description>NAVS Communication Service</Description>
+  <Version>1.0.1</Version>
+  <ReleaseDate>2020-07-08</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.js</Script>
+  <ForcedInstallation>true</ForcedInstallation>
+  <UpdateFile OS="Any" UncompressedSize="92015084" CompressedSize="34029654"/>
+  <DownloadableArchives>NAVS_COMMUNICATION_SERVICE.7z</DownloadableArchives>
+  <SHA1>4050c77e000ae0bf0199af1754f2a2b9bee7ce48</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.navsnow.charlie2</Name>
+  <DisplayName>Navs Support Service</DisplayName>
+  <Description>NAVS Support Service</Description>
+  <Version>1.0.1</Version>
+  <ReleaseDate>2020-07-08</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <ForcedInstallation>true</ForcedInstallation>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile OS="Any" UncompressedSize="12227618" CompressedSize="8342078"/>
+  <DownloadableArchives>NAVS_SUPPORT_SERVICE.7z</DownloadableArchives>
+  <SHA1>193b4c56cacf476b2c9957e81b5f5e0e80423deb</SHA1>
+ </PackageUpdate>
+</Updates>

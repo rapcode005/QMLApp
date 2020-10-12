@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/glowdot.png</file>
+        <file>images/glowdot2.png</file>
+        <file>images/glowdot3.png</file>
+        <file>fonts/windows/MontreuxC-DmBd.otf</file>
+        <file>fonts/windows/MontreuxC-Rg.otf</file>
+    </qresource>
+</RCC>

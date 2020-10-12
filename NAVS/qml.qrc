@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CornerNavsButton.qml</file>
+        <file>InstallerBackground.qml</file>
+        <file>NavsFull.qml</file>
+        <file>StartupScreens.qml</file>
+        <file>WebContainer.qml</file>
+        <file>SaveFileDialog.qml</file>
+        <file>NavsNotification.qml</file>
+        <file>NotificationItem.qml</file>
+        <file>LoginWindow.qml</file>
+        <file>DrawerRepeater.qml</file>
+        <file>DevTools.qml</file>
+        <file>AppDelegate.qml</file>
+        <file>AppItemDelegate.qml</file>
+        <file>NavsHandle.qml</file>
+    </qresource>
+    <qresource prefix="/zip"/>
+</RCC>
